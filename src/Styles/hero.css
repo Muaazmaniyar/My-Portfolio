@@ -1,0 +1,61 @@
+.hero-section {
+  padding: 50px 10px;
+  background: linear-gradient(135deg, #1e3c72, #1e3c72);
+  color: white;
+}
+
+.cta-button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #ffffff;
+  color: #2a5298;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-card {
+  display: inline-block;
+  /* background: #ffffff; */
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px black;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-card:hover {
+  transform: translateY(-5px);
+}
+
+.hero-image {
+  object-fit: cover;
+  border: 0px solid #2a5298;
+}
+
+.slide-in {
+  display: inline-block;
+  animation: slideRightLoop 3s ease-in-out infinite;
+  position: relative;
+  margin-top: -5px;
+}
+
+@keyframes slideRightLoop {
+  0% {
+    left: -10px;
+    opacity: 0;
+  }
+  50% {
+    left: 10px;
+    opacity: 1;
+  }
+  100% {
+    left: -10px;
+    opacity: 0;
+  }
+}
+
+.cta-button{
+  color: black;
+}

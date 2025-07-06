@@ -1,0 +1,20 @@
+.about-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.about-section h2 {
+  margin-bottom: 20px;
+}
+
+.icons{
+  height: 50px;
+  margin: 0 10px;
+  color: red;
+  transition: color 0.3s ease;
+}
+
+.icons :hover {
+  color: #141413;
+}
